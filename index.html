@@ -2,31 +2,60 @@
 <head>
 <title>Chef Brian Bevand</title>
 <style type="text/css">
-table, h1
-{
-	border: 0px solid black;
-	border-collapse:collapse;
-	width: 100%;
-}
-td
-{
-	border: 0px;
-	border-collapse:collapse;
-	width: 25%;
+body{ 
+    background-image: url("veggies.jpg");
+    background-position: center;
+    background-size: cover;
+	font-family: sans-serif;
+	color: white;
 }
 img {
 	max-width: 100%;
 	height: auto;
+	opacity: 100%;
+}
+.title {
+	font-family:impact;
+	color: white;
+	font-size: 60px;
+}
+.extra-text {
+  display: inline-block;
+}
+footer {
+	font-size: 10px;
+	text-align: center;
+}
+.food {
+	width: 85%;
+  	background-color: whitesmoke;
+  	opacity: 40%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 20px;
+  	position: center; 	
+}
+a {
+  color: white;
+}
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+a:active {
+  color: lightcyan;
 }
 </style>
+
 </head>
 <body>
-<center>
-<h1>Chef Brian Bevand</h1>
-<img src="chef.jpg" style="width: 50%; border-radius: 50%;" />
-<h1><a href="mailto:chef@brianbevand.com">chef@brianbevand.com</a></h1>
-<br />
-<table>
+<center><h1 class="title">Chef Brian Bevand</h1></center>
+<img src="chef.jpg" style="width: 35%; padding-left: 25px;" /> <article > <p class="extra-text"> hffhsdds sdvsv</p></article> 
+<table class="food">
 <tr>
 <td><img src="1.jpg" /></td>
 <td><img src="2.jpg" /></td>
@@ -34,6 +63,9 @@ img {
 <td><img src="4.jpg" /></td>
 </tr>
 </table>
-</center>
+
 </body>
+<footer>
+	<h2><a class="footer" href="mailto:chef@brianbevand.com">send me an e-mail</a></h2>
+</footer>
 </html>
